@@ -57,6 +57,20 @@
             contactForm.reset();
         })
     }
+    // This showFormInput() function ouputs the form information to the console when client press the send button
+    function showFormInput() {
+        console.log("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+        console.log("    First Name: " + firstName.value);
+        console.log("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+        console.log("     Last Name: " + lastName.value);
+        console.log("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+        console.log("         Email: " + email.value);
+        console.log("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+        console.log("Contact Number: " + contactNumber.value);
+        console.log("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+        console.log("  Your Message: " + yourMessage.value);
+        console.log("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+    }
 
 
 
